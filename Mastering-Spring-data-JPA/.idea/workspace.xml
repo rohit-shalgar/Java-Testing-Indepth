@@ -71,19 +71,16 @@
       <recent name="com.rohit.practise.database.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourseRepositoryTest.saveTheNewCourseTest">
-    <configuration name="CourseRepositoryTest.courseIdNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentRepositoryTest.saveTheNewCourseTest">
+    <configuration name="MasteringSpringDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.MasteringSpringDataJpaApplication" />
       <module name="database" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rohit.practise.database.repository.*" />
+          <option name="PATTERN" value="com.rohit.practise.database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.CourseRepositoryTest" />
-      <option name="METHOD_NAME" value="courseIdNotFoundTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,22 +96,6 @@
       <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
       <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.CourseRepositoryTest" />
       <option name="METHOD_NAME" value="deleteCourseByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseRepositoryTest.deleteCourseByIdThatDoesNotExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="database" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rohit.practise.database.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.CourseRepositoryTest" />
-      <option name="METHOD_NAME" value="deleteCourseByIdThatDoesNotExistTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,13 +133,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentRepositoryTest.saveTheNewCourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rohit.practise.database.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="saveTheNewCourseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentRepositoryTest.saveTheNewCourseTest" />
+        <item itemvalue="Application.MasteringSpringDataJpaApplication" />
         <item itemvalue="JUnit.CourseRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.updateTheCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.deleteCourseByIdTest" />
-        <item itemvalue="JUnit.CourseRepositoryTest.deleteCourseByIdThatDoesNotExistTest" />
-        <item itemvalue="JUnit.CourseRepositoryTest.courseIdNotFoundTest" />
       </list>
     </recent_temporary>
   </component>

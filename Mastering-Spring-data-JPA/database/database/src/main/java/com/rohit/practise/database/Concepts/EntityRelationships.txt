@@ -1,0 +1,17 @@
+@many-to-many
+
+course can have many students
+many students can have multiple courses enrolled into.
+
+@one-to-one
+    student can have only one passport.
+    passport can only be associated with only one person/student.
+    This is an eager fetch. if student is retrieved, passport is automatically retrieved along with it.
+    @OneToOne(fetchtype=lazy)
+        only when I am asking for passport details, passport details are retrieved.
+        you have to put @Transactional on the test case, when you are doing multiple transaction
+        especially in case of lazy fetch.
+
+@many-to-one
+    course with many reviews
+    review can be assoc with only one course.
