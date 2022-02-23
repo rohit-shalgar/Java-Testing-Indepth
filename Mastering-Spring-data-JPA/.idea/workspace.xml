@@ -21,6 +21,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
@@ -85,22 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseRepositoryTest.deleteCourseByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="database" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rohit.practise.database.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.CourseRepositoryTest" />
-      <option name="METHOD_NAME" value="deleteCourseByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CourseRepositoryTest.saveTheNewCourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="database" />
       <extension name="coverage">
@@ -149,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentRepositoryTest.studentCourseManyToManySampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rohit.practise.database.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rohit.practise.database.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="studentCourseManyToManySampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MasteringSpringDataJpaApplication" />
+        <item itemvalue="JUnit.StudentRepositoryTest.studentCourseManyToManySampleTest" />
         <item itemvalue="JUnit.StudentRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.updateTheCourseTest" />
-        <item itemvalue="JUnit.CourseRepositoryTest.deleteCourseByIdTest" />
       </list>
     </recent_temporary>
   </component>

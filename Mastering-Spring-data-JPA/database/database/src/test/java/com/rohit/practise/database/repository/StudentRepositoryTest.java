@@ -1,6 +1,7 @@
 package com.rohit.practise.database.repository;
 
 import com.rohit.practise.database.entity.Student;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @SpringBootTest
+@Slf4j
 public class StudentRepositoryTest {
 
     @Autowired
@@ -87,6 +89,14 @@ public class StudentRepositoryTest {
 
         assertThat(studentRepository.findStudentById(1002)).isEqualTo(null);
 
+    }
+
+    @Test
+    @Transactional
+    public void studentCourseManyToManySampleTest(){
+        Student student = studentRepository.findStudentById(2001);
+        log.info("student is - {}",student);
+        log.info("courses are -{}",student.getCourses());
     }
 
 }

@@ -4,10 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -28,6 +26,9 @@ public class Course {
     //we can not have multiple review ids in review id field, thats a bad db design
     //mappedBy indicates that review table is the owner of this relationship.
 
+    @ManyToMany(mappedBy = "courses")
+    public List<Student> students = new ArrayList<>();
+
     public Course(String name) {
         this.name = name;
     }
@@ -40,4 +41,7 @@ public class Course {
         return this.reviews.remove(review);
     }
 
+    public void addStudent(Student student) {
+        this.students.add(student);
+    }
 }

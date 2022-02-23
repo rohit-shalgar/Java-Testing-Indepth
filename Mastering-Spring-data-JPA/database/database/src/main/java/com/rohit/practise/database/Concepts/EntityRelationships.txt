@@ -1,4 +1,6 @@
 @many-to-many
+MORE INFO IN STUDENT ENTITY
+
 
 course can have many students
 many students can have multiple courses enrolled into.

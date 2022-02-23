@@ -1,5 +1,6 @@
 package com.rohit.practise.database.repository;
 
+import com.rohit.practise.database.entity.Course;
 import com.rohit.practise.database.entity.Passport;
 import com.rohit.practise.database.entity.Student;
 import lombok.extern.slf4j.Slf4j;
@@ -38,4 +39,16 @@ public class StudentRepository {
         entityManager.persist(student);
     }
 
+    public void addStudentAndCourseHardCoded() {
+        Student student = new Student("Silvanna");
+        Course course = new Course("ManyToMany in hibernate");
+
+        entityManager.persist(student);
+        entityManager.persist(course);
+
+        student.addCourse(course);
+        course.addStudent(student);
+
+        entityManager.persist(student);// student is the owning side of the relationship and hence to be persisted.
+    }
 }
