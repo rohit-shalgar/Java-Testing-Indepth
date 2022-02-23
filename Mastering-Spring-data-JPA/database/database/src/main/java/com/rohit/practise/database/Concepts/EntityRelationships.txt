@@ -15,3 +15,8 @@ many students can have multiple courses enrolled into.
 @many-to-one
     course with many reviews
     review can be assoc with only one course.
+
+
+//FetchTypes
+***ToOne - eager
+***ToMany - lazy

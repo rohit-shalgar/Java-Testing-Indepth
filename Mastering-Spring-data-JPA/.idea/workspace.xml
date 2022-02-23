@@ -71,7 +71,7 @@
       <recent name="com.rohit.practise.database.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentRepositoryTest.saveTheNewCourseTest">
+  <component name="RunManager" selected="Application.MasteringSpringDataJpaApplication">
     <configuration name="MasteringSpringDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rohit.practise.database.MasteringSpringDataJpaApplication" />
       <module name="database" />
@@ -151,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="Application.MasteringSpringDataJpaApplication" />
+        <item itemvalue="JUnit.StudentRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.saveTheNewCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.updateTheCourseTest" />
         <item itemvalue="JUnit.CourseRepositoryTest.deleteCourseByIdTest" />

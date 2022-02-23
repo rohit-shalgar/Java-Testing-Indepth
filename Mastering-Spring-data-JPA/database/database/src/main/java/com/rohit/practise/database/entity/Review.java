@@ -7,6 +7,7 @@ import lombok.ToString;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 @NoArgsConstructor
@@ -21,6 +22,9 @@ public class Review {
     public int ratings;
 
     public String description;
+
+    @ManyToOne
+    public Course course;
 
 
     public Review(String description,int ratings) {
